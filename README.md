@@ -24,17 +24,17 @@ Here is an Entity Relationship Diagram (ERD) that shows the relationships betwee
 <img width="625" alt="doc" src="https://user-images.githubusercontent.com/54138835/216763100-1d1db83f-1c7b-4f01-9c65-aac72488299a.PNG">
 
 
-**Users table**: contains information about each user, including their UserID, UserName, and PhoneNumber.
+**Users table**:  contains information about each user, including their UserID, UserName, and PhoneNumber.
 
-**Groups table**: contains information about each group, including their GroupID and GroupName.
+**Groups table**:  contains information about each group, including their GroupID and GroupName.
 
-**GroupMembers table**: links users and groups, connecting a user to the groups they are a member of.
+**GroupMembers table**:  links users and groups, connecting a user to the groups they are a member of.
 
-**Chats table**: contains information about each chat, including the ChatID, SenderID, ReceiverID, Message, and Timestamp.
+**Chats table**:  contains information about each chat, including the ChatID, SenderID, ReceiverID, Message, and Timestamp.
 
-**Status table**: contains information about each status, including the UserID, StatusID, and Number of views. 
+**Status table**:  contains information about each status, including the UserID, StatusID, and Number of views. 
 
-**Status_View**: contains information about each status viewed, including the UserID, StatusID,   ViewID and isViewed?. 
+**Status_View**:  contains information about each status viewed, including the UserID, StatusID,   ViewID and isViewed?. 
 
 ### View
 The ChatDetails view is created to see the sender name, receiver name, messages sent between them with timestamps. This view joins the Chats table with the Users table to display the sender and receiver names instead of their UserIDs.
