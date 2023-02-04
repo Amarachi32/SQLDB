@@ -22,6 +22,7 @@ Check the tables and data in the database to make sure they have been created an
 Here is an Entity Relationship Diagram (ERD) that shows the relationships between tables in the database:
 <img width="625" alt="doc" src="https://user-images.githubusercontent.com/54138835/216763100-1d1db83f-1c7b-4f01-9c65-aac72488299a.PNG">
 
+
 Users table: contains information about each user, including their UserID, UserName, and PhoneNumber.
 
 Groups table: contains information about each group, including their GroupID and GroupName.
@@ -34,10 +35,10 @@ Status table: contains information about each status, including the UserID, Stat
 
 Status_View: contains information about each status viewed, including the UserID, StatusID,   ViewID and isViewed?. 
 
-View
+# View
 The ChatDetails view is created to see the sender name, receiver name, messages sent between them with timestamps. This view joins the Chats table with the Users table to display the sender and receiver names instead of their UserIDs.
 
-Conclusion
+# Conclusion
 This project provides a basic foundation for creating a WhatsApp-like database, including tables for users, groups, group members, status, status_views and chats. The ERD and view provide an overview of the relationships between tables and a convenient way to see the sender name, receiver name, messages sent between them with timestamps.
 
 
