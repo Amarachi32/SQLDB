@@ -9,6 +9,11 @@ Create a database in your SQL Server or any other relational database management
 
 ### Run the SQL scripts :
 Scripts.sql  
+.`Users`
+`Groups.sql`
+GroupMembers.sql
+Chats.sql
+ChatDetails.sql
 
 Check the tables and data in the database to make sure they have been created and populated correctly.
 
