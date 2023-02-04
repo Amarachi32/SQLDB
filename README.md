@@ -8,14 +8,8 @@ Getting Started
 Create a database in your SQL Server or any other relational database management system.
 
 ### Run the SQL scripts :
-Scripts.sql  which contains the 6 tables and 1 view.
-+Users
-+Groups
-+GroupMembers
-+Chats
-+statuses
-+status_views
-+ChatDetails
+Scripts.sql  
+
 Check the tables and data in the database to make sure they have been created and populated correctly.
 
 # Entity Relationship Diagram
